@@ -107,6 +107,12 @@ Examples from the 100-document experiments:
 
 BART achieved the strongest overall BERTScore performance across the evaluated datasets, while PEGASUS showed particularly high hallucination on out-of-domain scientific documents.
 
+## Technical Report
+
+The complete methodology, experimental setup, results and analysis are available in the project report:
+
+[Read the Technical Report](docs/technical_report.pdf)
+
 ## Repository Structure
 
 ```text
@@ -122,15 +128,9 @@ hallucination-detection-mitigation/
 │   ├── 03_mitigation_bart_t5.ipynb
 │   └── 04_mitigation_pegasus.ipynb
 │
-├── results/
-│   ├── baseline_metrics.csv
-│   ├── mitigation_metrics.csv
-│   └── hallucination_comparison.png
-│
-├── assets/
-│   ├── complete_pipeline.png
-│   └── mitigation_pipeline.png
-│
+└── docs/
+    ├── README.md
+    └── technical_report.pdf
 ├── data/
 │   └── README.md
 │
